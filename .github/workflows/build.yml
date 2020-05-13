@@ -7,8 +7,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [5.1, 5.2, 5.3, 5.4, 5.5, master]
-        staging: [-staging, ""]
+        version: [5.5]
+        staging: [""]
 
     runs-on: ubuntu-latest
 
