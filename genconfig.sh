@@ -53,4 +53,4 @@ args+=(--disable-tests)
 args+=(--enable-win64)
 . enabled_dll.sh
 echo ${args[@]}
-exec ./configure ${args[@]} --prefix=$PWD/dist CFLAGS="-O3 " LDFLAGS="-O3 "
+exec ./configure ${args[@]} --prefix=$PWD/dist CFLAGS="-O2 " LDFLAGS="-O2 "
